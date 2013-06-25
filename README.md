@@ -1,7 +1,6 @@
 VTrivia-game
 ===========
-VTrivia game 1.0
-Technical documentation
+
 “VTrivia game” is a web based application and it is related to the Entertainment modules. 
 This game is based on new web technologies: HTML5, CSS3 and JavaScript programing. 
 During play you are allowed to create categories of questions, to add a question in an existing category and 
