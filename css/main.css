@@ -1,0 +1,271 @@
+                           /*ReseT*/
+html, body, div, span, iframe, p,
+blockquote, pre,a, img, strong, sub, sup, b, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, footer, header, menu, nav, section {  
+	margin: 0;	
+	padding: 0;	
+	border: 0;
+	vertical-align: baseline;
+	word-wrap:break-word;
+}
+html, body {
+	height: 100%;
+    
+}
+img {
+	border: none;
+}
+a {
+    text-decoration: none;
+    color: #5b5b58;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, footer, header,
+menu, nav, section {	
+	display:block;
+    overflow: hidden;
+	margin: 0px 0;
+}
+
+ol, ul {	
+	list-style: none;
+}
+                            /*ReseT enD*/
+
+body {
+	font: 15px Arial, Helvetica, sans-serif;
+	color: #5b5b58;
+	background-color: #F5EFC4;
+}
+
+                            /*HeadeR*/
+
+header h1 {
+    margin: 25px auto;
+    width: 270px;
+    font-style: oblique;
+    font-size: 32px;
+}
+header span {
+    background: url("../img/favicon.png") no-repeat;
+    width: 61px;
+    height: 41px;
+    display:inline-block;
+}
+#main-wrapper {
+    width:1000px;
+    margin:0 auto;
+    min-height: 550px;
+    overflow: hidden;
+}
+
+#main-wrapper nav {
+    background-color: #F5E56C;
+    border-radius: 15px;
+    -moz-box-shadow: inset -15px -11px 24px #E8D22A;  
+    -webkit-box-shadow: inset -15px -11px 24px #E8D22A;  
+    box-shadow: inset -15px -11px 24px #E8D22A;
+}
+#main-nav{
+    margin-left: 10px;
+}
+#main-nav li a{
+    float:left;
+    padding: 15px;
+    text-shadow: 2px 1px 8px #5b5b58;
+    font-size: 15px;
+}
+#main-nav li a:hover {
+    text-shadow: 2px 1px 3px #5b5b58;    
+}
+
+                            /*HeadeR enD*/
+
+                            /*SectioN*/
+
+
+#content-wrapper{
+    width:900px;
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 400px;
+}
+section {
+    width: 630px;
+    float:left;
+}
+
+#main-content, #user-info {
+    width: 620px;
+    float:left;
+    padding-top: 20px;
+}
+
+#reg-form label, #login-form label, #users-form label  {
+    margin: 10px;
+}
+#reg-form input, #login-form input, #users-form input {
+    margin-top:5px;
+}
+#tb-username, #tb-login-username {
+    margin-left: 48px;
+}
+#tb-nickname, #tb-pass, #tb-login-pass {
+    margin-left: 51px;
+}
+#all-users-btn {
+    float: right;
+}
+#after-login-menu {
+    margin: 10px;
+}
+#after-login-menu li a {
+    float:left;
+    padding: 10px 10px;
+}
+#new-cat-form textarea {
+    margin: 5px 15px -7px;
+}
+textarea{
+    border: none;
+}
+#next-quest-btn, #finish, button + p {
+    float:right;
+}
+button{
+    border-radius: 20px;
+    background-color: #F5E56C;
+    color: #5b5b58;
+    padding: 9px;
+    margin: 15px;
+    border: none;
+        -moz-box-shadow: -5px -5px 16px #EBD63B;  
+    -webkit-box-shadow: -5px -5px 5px #EBD63B;  
+    box-shadow: 2px 2px 16px #EBD63B;
+    text-transform:lowercase;
+}
+button:hover{
+    -moz-box-shadow: inset -5px -5px 12px #E8D22A;  
+    -webkit-box-shadow: inset -5px -5px 12px #E8D22A;  
+    box-shadow: inset -5px -5px 12px #E8D22A;
+    
+}
+#login-form, #reg-form {
+    width: 320px;
+    overflow: hidden;
+}
+#login-btn, #reg-btn{
+    float:right;
+}
+input{
+    border:none;
+}
+#user-info th, #user-info td{
+    padding: 10px;
+    margin:5px;
+    border-top: 1px solid #B7D69F;
+    border-bottom: 1px solid white;
+}
+#user-info th {
+    border-top: none;
+}
+#user-info tfoot td{
+    border-bottom: none;
+}
+#user-info tbody tr {
+    background-color:#C5E6A3;
+}
+#user-info tbody tr:hover{
+    background-color:#B7D69F;
+    cursor: pointer;
+}
+
+.categories li{
+    margin:10px;
+}
+.category-id {
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+}
+.category-name{
+    margin-left: 25px;
+}
+.validation-quest-div, .input-error-div, .user-error-div, .pass-error-div, .nick-error-div {
+    color: #DB1A31;
+}
+.validation-quest-div {
+    font:italic bold 20px Georgia, serif;
+    margin:5px;
+}
+.input-error-div, .user-error-div, .pass-error-div, .nick-error-div {
+    font:italic bold 11px Georgia, serif;
+    margin: 10px;
+}
+
+                               /*SectioN enD*/
+
+                              /*AsidE*/
+
+aside {
+    float: right;
+    width: 255px;
+    overflow:hidden;
+    padding-top: 20px;
+}
+    /*Error Box*/
+#error-message-box{
+    float:right;
+    width: 250px;
+    background-color: #F5C4C4;
+    border-radius: 15px;
+    -moz-box-shadow: inset -9px -6px 27px #F04896;  
+    -webkit-box-shadow: inset -9px -6px 27px #F04896;  
+    box-shadow: inset -9px -6px 27px #F04896;
+    visibility: hidden;
+}
+    #error-message-box h3 {
+        width: 170px;
+        margin: 20px auto;
+    }
+    #error-message {
+        width: 225px;
+        margin: 10px auto;
+    }
+    /*Error boX END*/
+
+.user-name-container {
+    width: 225px;
+    margin: 20px 5px 35px;
+}
+
+    /*TimeR*/
+#Label1 {
+    font-size:24pt;
+    font-weight:bold;
+}
+    /*TimeR enD*/
+
+                            /*AsidE enD*/
+
+                            /*FooteR*/
+
+footer{
+    width: 150px;
+float: left;
+text-transform: uppercase;
+font-weight: bold;
+    margin: 50px 0 10px;
+}
+#flower-background {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    width: 300px;
+    height: 480px;
+    background: url("../img/left_flowers.png") no-repeat;
+}
+                            /*FooteR enD*/
